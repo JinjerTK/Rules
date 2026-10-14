@@ -1,6 +1,6 @@
 # Custom_OpenClash_Rules
 # OpenClash 专用最小 YAML 配置文件（重度分流版）
-# 项目地址：https://github.com/Aethersailor/Custom_OpenClash_Rules
+# 项目地址： https://gh-proxy.com/https://github.com/Aethersailor/Custom_OpenClash_Rules
 # 本文件仅定义节点来源、静态节点、策略组、规则提供者与分流规则。
 # 端口、运行模式、DNS、IPv6、TUN、嗅探、GeoData、日志及控制器等参数全部由 OpenClash LuCI 管理。
 # 建议先按照项目 Wiki 完成 OpenClash 设置，再加载本配置。
@@ -330,85 +330,85 @@ rule-providers:
     behavior: domain
     interval: 28800
     type: http
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/mrs/SteamCN_domain.mrs"
+    url: " https://gh-proxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/mrs/SteamCN_domain.mrs"
     format: mrs
   SteamRegionCheck_domain:
     behavior: domain
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/SteamRegionCheck_domain.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/SteamRegionCheck_domain.mrs"
     format: mrs
   LocalAreaNetwork_domain:
     behavior: domain
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/LocalAreaNetwork_domain.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/LocalAreaNetwork_domain.mrs"
     format: mrs
   LocalAreaNetwork_ip:
     behavior: ipcidr
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/LocalAreaNetwork_ip.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/LocalAreaNetwork_ip.mrs"
     format: mrs
   UnBan_domain:
     behavior: domain
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/UnBan_domain.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/UnBan_domain.mrs"
     format: mrs    
   BanAD_domain:
     behavior: domain
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanAD_domain.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanAD_domain.mrs"
     format: mrs       
   BanProgramAD_domain:
     behavior: domain
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanProgramAD_domain.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanProgramAD_domain.mrs"
     format: mrs
   BanProgramAD_ip:
     behavior: ipcidr
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanProgramAD_ip.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanProgramAD_ip.mrs"
     format: mrs    
   BanEasyList_domain:
     behavior: domain
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyList_domain.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyList_domain.mrs"
     format: mrs
   BanEasyList_ip:
     behavior: ipcidr
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyList_ip.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyList_ip.mrs"
     format: mrs   
   BanEasyListChina_domain:
     behavior: domain
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyListChina_domain.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyListChina_domain.mrs"
     format: mrs
   BanEasyListChina_ip:
     behavior: ipcidr
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyListChina_ip.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyListChina_ip.mrs"
     format: mrs 
   BanEasyPrivacy_domain:
     behavior: domain
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyPrivacy_domain.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyPrivacy_domain.mrs"
     format: mrs
   BanEasyPrivacy_ip:
     behavior: ipcidr
     interval: 28800
     type: http
-    url: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyPrivacy_ip.mrs"
+    url: " https://gh-proxy.com/https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/mrs/BanEasyPrivacy_ip.mrs"
     format: mrs 
 # ==================== 分流规则 Rules ====================
 # 规则自上而下匹配，命中首条规则后停止。
