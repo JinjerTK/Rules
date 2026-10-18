@@ -1,4 +1,4 @@
-# Custom_OpenClash_Rules
+  # Custom_OpenClash_Rules
 # OpenClash 专用最小 YAML 配置文件（重度分流版）
 # 项目地址： https://gh-proxy.com/https://github.com/Aethersailor/Custom_OpenClash_Rules
 # 本文件仅定义节点来源、静态节点、策略组、规则提供者与分流规则。
@@ -78,7 +78,7 @@ proxy-groups:
       - provider1       
   - name: "♻️ 自动选择"
     type: url-test
-    exclude-filter: "(1\\.[1-9]|[2-9](\\.[0-9])?|[1-9][0-9]+)(x|X|✕|✖|⨉|倍|倍率)"
+    exclude-filter: "(?i)(x|X|✕|✖|⨉|倍|倍率)"
     use:
       - provider1
     url: https://www.gstatic.com/generate_204
@@ -421,6 +421,7 @@ rules:
   - "RULE-SET,Custom_Direct_Port,🎯 全球直连"
   - "RULE-SET,Custom_Proxy_Domain,🚀 节点选择"
   - "RULE-SET,Custom_Proxy_IP,🚀 节点选择,no-resolve"
+  # ACL补充规则
   - "RULE-SET,LocalAreaNetwork_domain,🎯 全球直连"
   - "RULE-SET,LocalAreaNetwork_ip,🎯 全球直连,no-resolve"
   - "RULE-SET,UnBan_domain,🎯 全球直连"  
@@ -433,9 +434,9 @@ rules:
   - "RULE-SET,BanEasyListChina_ip,🛑 广告拦截,no-resolve"
   - "RULE-SET,BanEasyPrivacy_domain,🛑 广告拦截"
   - "RULE-SET,BanEasyPrivacy_ip,🛑 广告拦截,no-resolve"
-  - "GEOSITE,google-cn,🎯 全球直连"
   - "RULE-SET,SteamRegionCheck_domain,🎯 全球直连" 
   - "RULE-SET,SteamCN_domain,🎯 全球直连"
+
   - "GEOSITE,category-games-cn,🎯 全球直连"
   - "RULE-SET,Steam_CDN_Domain,🎯 全球直连"  
   - "RULE-SET,Steam_CDN_IP,🎯 全球直连,no-resolve"
