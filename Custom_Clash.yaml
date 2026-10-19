@@ -437,7 +437,7 @@ rules:
   - "RULE-SET,SteamRegionCheck_domain,🎯 全球直连" 
   - "RULE-SET,SteamCN_domain,🎯 全球直连"
 
-  - "GEOSITE,category-games-cn,🎯 全球直连"
+  - "GEOSITE,category-games@cn,🎯 全球直连"
   - "RULE-SET,Steam_CDN_Domain,🎯 全球直连"  
   - "RULE-SET,Steam_CDN_IP,🎯 全球直连,no-resolve"
   - "GEOSITE,category-game-platforms-download,🎯 全球直连"
