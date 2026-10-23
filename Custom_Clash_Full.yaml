@@ -349,6 +349,7 @@ rules:
   - "GEOSITE,category-public-tracker,🎯 全球直连"
   - "GEOSITE,openai,🤖 ChatGPT"
   - "GEOSITE,category-ai-!cn,🤖 AI服务"
+  - "GEOSITE,github,🚀 节点选择"
   - "GEOSITE,category-speedtest,🚀 测速工具"
   - "GEOSITE,steam,🎮 Steam"
   - "GEOSITE,microsoft,Ⓜ️ 微软服务"
